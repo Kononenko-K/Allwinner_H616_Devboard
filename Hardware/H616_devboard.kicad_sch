@@ -1,0 +1,99 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 44f68964-8d75-4db0-b784-705712e148bc)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 93.345 70.485) (size 27.94 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2a0ab7b4-b95c-4f2e-a58a-6fd53ad0fdf3)
+    (property "Sheetname" "DRAM" (at 93.345 69.7734 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "dram.kicad_sch" (at 93.345 93.9296 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "H616_devboard"
+        (path "/44f68964-8d75-4db0-b784-705712e148bc" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 133.985 70.485) (size 27.94 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2cf23393-b934-4ee4-a6b6-72df378d458a)
+    (property "Sheetname" "POWER" (at 133.985 69.7734 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 133.985 93.9296 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "H616_devboard"
+        (path "/44f68964-8d75-4db0-b784-705712e148bc" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 174.625 70.485) (size 26.035 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2e182087-17c9-4f42-b165-52dadf9ce5a4)
+    (property "Sheetname" "IO1" (at 174.625 69.7734 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "io1.kicad_sch" (at 174.625 93.9296 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "H616_devboard"
+        (path "/44f68964-8d75-4db0-b784-705712e148bc" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 93.345 109.22) (size 27.305 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5d9fa4e3-c1a9-47c1-b361-a7aa11440b42)
+    (property "Sheetname" "IO2" (at 93.345 108.5084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "io2.kicad_sch" (at 93.345 132.6646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "H616_devboard"
+        (path "/44f68964-8d75-4db0-b784-705712e148bc" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 133.35 109.22) (size 28.575 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 95399e0d-575a-4500-9429-e4d55ac775b9)
+    (property "Sheetname" "USB-UART" (at 133.35 108.5084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "usb_uart.kicad_sch" (at 133.35 132.6646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "H616_devboard"
+        (path "/44f68964-8d75-4db0-b784-705712e148bc" (page "6"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
