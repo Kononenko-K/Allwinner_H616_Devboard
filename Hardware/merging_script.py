@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import os
 import glob
 import img2pdf
