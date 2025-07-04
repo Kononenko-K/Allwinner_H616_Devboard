@@ -60,3 +60,7 @@ setenv bootargs console=ttyS0,115200 root=/dev/mmcblk0p2 rw rootwait
 setenv bootcmd `mmc rescan; fatload mmc 0:1 0x46000000 Image; fatload mmc 0:1 0x49000000 sun50i-h616-orangepi-zero2.dtb; booti 0x46000000 - 0x49000000`
 ```
 Then you shoud use a proper boot.scr file to boot the system automatically.
+
+## License
+- The **Hardware** in this project is licensed under the [CERN Open Hardware Licence Permissive (CERN OHL-P)](/Hardware/LICENSE).
+
