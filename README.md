@@ -111,4 +111,4 @@ BR2_TARGET_UBOOT_BOARD_DEFCONFIG="orangepi_zero2"
 Download sources with `make source`, then build.
 
 ## License
-- The **Hardware** in this project is licensed under the [CERN Open Hardware Licence Permissive (CERN OHL-P)](/Hardware/LICENSE).
+- The **Hardware** in this project is licensed under the [CERN Open Hardware Licence Permissive (CERN OHL-P)](LICENSE).
